@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
     <header>
         <h1 v-if="asHead">Полезные свойства капусты</h1>
         <nav :style="styleObject">
@@ -18,10 +18,10 @@
                 </svg>
             </button>
             <ul>
-                <li><button>Главная</button></li>
-                <li><button>Блог</button></li>
-                <li><button>О нас</button></li>
-                <li><button>Контакты</button></li>
+                <li><a href="#/home">Главная</a></li>
+                <li><a href="#/blog">Блог</a></li>
+                <li><a href="#/about">О нас</a></li>
+                <li><a href="#/contact">Контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -85,13 +85,13 @@
         
     }
 
-    button {
+    button, a {
         cursor: pointer;
         color: #E5847B;
-        font-size: 15px;
+        font-size: 18px;
     }
 
-    button:hover {
+    button:hover, a:hover {
         color: #FECFB0;
     }
-</style> -->
+</style>
